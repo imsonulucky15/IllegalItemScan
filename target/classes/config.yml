@@ -1,0 +1,15 @@
+scan:
+  inventory-interval-mins: 15
+  world-interval-mins: 30
+
+worlds:
+  overworld: (world name)
+  nether: (world name)
+  end: (world name)
+
+webhook: "urwebhook"
+
+custom-illegal-items:
+  - TNT
+  - BEDROCK
+  - SPAWNER

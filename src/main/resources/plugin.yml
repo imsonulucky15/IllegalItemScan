@@ -1,0 +1,16 @@
+name: IllegalItemScan
+version: 1.0
+author: imsonulucky
+main: me.imsonulucky.illegalitemscan.IllegalItemScan
+api-version: 1.21
+commands:
+  reloadillegalitemscan:
+    description: reloads the plugin
+    usage: /reloadillegalitemscan
+  scanillegal:
+    description: manually run a scan
+    usage: /scanillegal
+permissions:
+  illegalitemscan.alerts:
+    description: a perm to give if u want certian players to see if smt got cleared
+    default: op
